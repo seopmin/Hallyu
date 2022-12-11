@@ -4,6 +4,18 @@ import java.io.*;
 import java.util.Scanner;
 import java.io.IOException;
 
+// 한국 Kpop에 대해 소개
+
+// 인터페이스: Hally(한류)
+// 인터페이스로 구현한 클래스: Kpop
+// 클래스 상속으로 구현한 클래스: BTS, Idle
+// 파일 입력 사용: file.txt안에 있는 멤버들을 각 그룹에 추가함
+// 파일 출력 사용: 해당 그룹 파일(Idle_file, BTS_file)에 멤버들을 저장함
+// 파일 입출력 및 입력 받을 때 예외처리 사용
+// KpopMthod 함수에서 다형성 사용
+// BTS, Idle 클래스에서 컬렉션 프레임워크 사용
+// Kpop 클래스에서 참조타입 사용
+
 public class Main {
     public static void main(String[] args) {
 
